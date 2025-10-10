@@ -1,0 +1,7 @@
+[
+    { "id": "english", "displayName": "English", "fileName": "english.json" },
+    { "id": "hindi",   "displayName": "हिंदी",    "fileName": "hindi.json"   },
+    { "id": "tamil",   "displayName": "தமிழ்",    "fileName": "tamil.json"   },
+    { "id": "russian", "displayName": "Русский",  "fileName": "russian.json" },
+    { "id": "spanish", "displayName": "Español",  "fileName": "spanish.json" }
+  ]

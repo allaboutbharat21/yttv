@@ -1,0 +1,139 @@
+/* --- Header Styles --- */
+.site-header {
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+}
+
+.site-header .logo {
+    width: 36px;
+    height: 36px;
+    /* FIX: The filter property has been removed to display the white logo correctly. */
+}
+
+.site-header h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--primary-text-color);
+}
+
+
+/* --- Global Variables & Resets --- */
+:root {
+    --primary-bg-color: #121212;
+    --secondary-bg-color: #212121;
+    --primary-text-color: #e0e0e0;
+    --accent-color: #bb86fc;
+    --surface-color: #333333;
+    --divider-color: #444444;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    min-height: 100vh;
+}
+
+main {
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1rem;
+}
+
+/* --- Player --- */
+#player-container {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background-color: black;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+
+#player { width: 100%; height: 100%; }
+
+/* --- Autoplay Fallback Overlay --- */
+#autoplay-overlay {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.7); display: flex; justify-content: center;
+    align-items: center; z-index: 10; transition: opacity 0.3s; opacity: 1;
+}
+
+#autoplay-overlay.hidden { opacity: 0; pointer-events: none; }
+#play-button .material-icons { font-size: 2rem; }
+
+
+/* --- Controls --- */
+.controls { width: 100%; display: flex; justify-content: center; align-items: center; gap: 1rem; padding: 0.5rem; }
+
+.material-button {
+    background-color: var(--surface-color); color: var(--primary-text-color);
+    border: none; padding: 0.75rem 1.5rem; font-family: 'Roboto', sans-serif;
+    font-size: 1rem; font-weight: 500; border-radius: 4px; cursor: pointer;
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    text-transform: uppercase; box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.material-button:hover { background-color: #4a4a4a; box-shadow: 0 4px 8px rgba(0,0,0,0.3); }
+
+/* --- Channel Selector Dropdown --- */
+.dropdown-container { position: relative; display: inline-block; }
+.dropdown-content {
+    display: none; position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%);
+    background-color: var(--secondary-bg-color); min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1;
+    border-radius: 4px; padding: 0.5rem 0; margin-bottom: 0.5rem;
+}
+.dropdown-content.show { display: block; }
+.channel-item { display: block; padding: 0.75rem 1rem; cursor: pointer; user-select: none; display: flex; align-items: center; }
+.channel-item:hover { background-color: var(--surface-color); }
+.channel-item input[type="checkbox"] { margin-right: 0.75rem; }
+
+/* --- Schedule Table Styles --- */
+.schedule-container {
+    width: 100%;
+    max-width: 700px; 
+    margin: 1rem auto;
+    padding: 1.5rem;
+    background-color: var(--secondary-bg-color);
+    border-radius: 8px;
+}
+.schedule-container h2 { margin-bottom: 1rem; font-weight: 500; }
+.schedule-container table { width: 100%; border-collapse: collapse; }
+.schedule-container th, .schedule-container td { padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--divider-color); }
+.schedule-container thead th { color: var(--accent-color); font-weight: 700; }
+.schedule-container tbody tr:last-child td { border-bottom: none; }
+.schedule-container tbody a { color: var(--primary-text-color); text-decoration: none; transition: color 0.2s; }
+.schedule-container tbody a:hover { color: var(--accent-color); text-decoration: underline; }
+.schedule-container p {margin-bottom: 1.5rem; line-height: 1.6}
+
+/* --- Footer Styles --- */
+.page-footer {
+    width: 100%;
+    max-width: 1280px;
+    padding: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.page-footer p {
+    font-size: 0.875rem;
+    opacity: 0.7;
+}

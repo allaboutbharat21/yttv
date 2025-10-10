@@ -1,0 +1,165 @@
+{
+    "schedule": [
+      {
+        "startTime": "05:28:00",
+        "endTime": "05:30:00",
+        "videos": [
+          "4ZtihFRxK28"
+        ],
+        "name": "Yoga Padi",
+        "duration": "PT13M19S"
+      },{
+        "startTime": "05:30:00",
+        "endTime": "05:38:42",
+        "videos": [
+          "SBi8kQ9B20o"
+        ],
+        "name": "Guru Pooja",
+        "duration": "PT8M42S"
+      },
+      {
+        "startTime": "05:38:43",
+        "endTime": "05:50:00",
+        "videos": [
+          "ebylBWgEmRw"
+        ],
+        "name": "Aum Namah Shivaya Chanting",
+        "duration": "PT9M38S"
+      },
+      {
+        "startTime": "05:50:00",
+        "endTime": "06:00:00",
+        "videos": [
+          "ebylBWgEmRw"
+        ],
+        "name": "Aum Namah Shivaya Chanting",
+        "duration": "PT9M38S"
+      },
+      {
+        "startTime": "06:00:00",
+        "endTime": "06:30:00",
+        "videos": [
+          "EU5ULzRDmhw"
+        ],
+        "name": "Upa-Yoga Session",
+        "duration": "PT44M11S"
+      },
+      {
+        "startTime": "06:30:00",
+        "endTime": "06:33:00",
+        "videos": [
+          "SjdY-A_azIU"
+        ],
+        "name": "Opening Devi Arati",
+        "duration": "PT3M53S"
+      },
+      {
+        "startTime": "07:40:00",
+        "endTime": "07:51:00",
+        "videos": [
+          "71m9hmxzLSc"
+        ],
+        "name": "Devi Abhishekam",
+        "duration": "PT11M50S"
+      },
+      {
+        "startTime": "11:50:00",
+        "endTime": "12:10:00",
+        "videos": [
+          "MRpvby5ZHaQ"
+        ],
+        "name": "Nada Aradhana",
+        "duration": "PT33M35S"
+      },
+      {
+        "startTime": "12:40:00",
+        "endTime": "12:51:00",
+        "videos": [
+          "71m9hmxzLSc"
+        ],
+        "name": "Devi Abhishekam",
+        "duration": "PT11M50S"
+      },
+      {
+        "startTime": "13:20:00",
+        "endTime": "13:23:00",
+        "videos": [
+          "SjdY-A_azIU"
+        ],
+        "name": "Closing Devi Arati",
+        "duration": "PT3M53S"
+      },
+      {
+        "startTime": "16:20:00",
+        "endTime": "16:23:00",
+        "videos": [
+          "SjdY-A_azIU"
+        ],
+        "name": "Opening Devi Arati",
+        "duration": "PT3M53S"
+      },
+      {
+        "startTime": "17:50:00",
+        "endTime": "18:10:00",
+        "videos": [
+          "MRpvby5ZHaQ"
+        ],
+        "name": "Nada Aradhana",
+        "duration": "PT33M35S"
+      },
+      {
+        "startTime": "18:10:00",
+        "endTime": "18:20:00",
+        "videos": [
+          "j3KVjUmz3Sk"
+        ],
+        "name": "Presence - Guru Paduka Stotram",
+        "duration": "PT10M21S"
+      },
+      {
+        "startTime": "18:20:00",
+        "endTime": "18:30:00",
+        "videos": [
+          "YOZBUAnm99s"
+        ],
+        "name": "Presence - Brahmamanda Swaroopa",
+        "duration": "PT10M28S"
+      },
+      {
+        "startTime": "19:20:00",
+        "endTime": "19:33:43",
+        "videos": [
+          "5sRq2xmqvrg"
+        ],
+        "name": "Adiyogi Divya Darshanam",
+        "duration": "PT13M43S"
+      },
+      {
+        "startTime": "19:40:00",
+        "endTime": "19:51:00",
+        "videos": [
+          "71m9hmxzLSc"
+        ],
+        "name": "Devi Abhishekam",
+        "duration": "PT11M50S"
+      },
+      {
+        "startTime": "20:30:00",
+        "endTime": "20:33:00",
+        "videos": [
+          "SjdY-A_azIU"
+        ],
+        "name": "Closing Devi Arati",
+        "duration": "PT3M53S"
+      },
+      {
+        "startTime": "23:50:00",
+        "endTime": "00:10:00",
+        "videos": [
+          "MRpvby5ZHaQ"
+        ],
+        "name": "Nada Aradhana",
+        "duration": "PT33M35S"
+      }
+    ]
+  }
