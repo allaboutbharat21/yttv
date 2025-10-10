@@ -19,34 +19,25 @@
       },
       {
         "startTime": "05:38:43",
-        "endTime": "05:50:00",
+        "endTime": "05:58:59",
         "videos": [
-          "ebylBWgEmRw"
+          "zemsDiflcVg"
         ],
         "name": "Aum Namah Shivaya Chanting",
-        "duration": "PT9M38S"
+        "duration": "PT20M16S"
       },
       {
-        "startTime": "05:50:00",
-        "endTime": "06:00:00",
+        "startTime": "05:58:59",
+        "endTime": "06:32:00",
         "videos": [
-          "ebylBWgEmRw"
-        ],
-        "name": "Aum Namah Shivaya Chanting",
-        "duration": "PT9M38S"
-      },
-      {
-        "startTime": "06:00:00",
-        "endTime": "06:30:00",
-        "videos": [
-          "EU5ULzRDmhw"
+          "A1Anr-ROOoo"
         ],
         "name": "Upa-Yoga Session",
-        "duration": "PT44M11S"
+        "duration": "PT32M09S"
       },
       {
-        "startTime": "06:30:00",
-        "endTime": "06:33:00",
+        "startTime": "06:31:00",
+        "endTime": "06:35:00",
         "videos": [
           "SjdY-A_azIU"
         ],
@@ -55,7 +46,7 @@
       },
       {
         "startTime": "07:40:00",
-        "endTime": "07:51:00",
+        "endTime": "07:52:00",
         "videos": [
           "71m9hmxzLSc"
         ],
@@ -162,4 +153,5 @@
         "duration": "PT33M35S"
       }
     ]
+
   }
